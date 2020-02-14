@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj": {}
+    "c:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj": {
+    "c:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj",
+        "projectUniqueName": "c:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj",
         "projectName": "dotnet_app",
-        "projectPath": "C:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj",
+        "projectPath": "c:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\dotnet_app.csproj",
         "packagesPath": "C:\\Users\\EAGLES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\obj\\",
+        "outputPath": "c:\\Users\\EAGLES\\Desktop\\insidesherpa\\JPMorgan_SE\\resource\\NodeJs\\Intermediate\\project\\dotnet_app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EAGLES\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,20 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "target": "Package",
+              "version": "(, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
